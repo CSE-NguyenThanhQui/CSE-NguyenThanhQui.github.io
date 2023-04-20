@@ -79,6 +79,10 @@ a:hover {
   background-position: center center;
 }
 
+.space-between {
+  margin-top: 50px;
+}
+
 .overlay-mf {
   background-color: #0078ff;
 }
