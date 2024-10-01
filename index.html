@@ -46,7 +46,7 @@ height: 100%;
             background-color: #45a049; /* Darker green */
         }
    .gallery  {
-  --s: 280px; /* control the size */
+  --s: 260px; /* control the size */
   
   display: grid;
   width: var(--s);
@@ -239,8 +239,8 @@ time;
 // get point on heart with -PI <= t <= PI
 function pointOnHeart(t) {
 return new Point(
-190 * Math.pow(Math.sin(t), 3),
-160 * Math.cos(t) - 60 * Math.cos(2 * t) - 30 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
+250 * Math.pow(Math.sin(t), 3),
+220 * Math.cos(t) - 60 * Math.cos(2 * t) - 30 * Math.cos(3 * t) - 10 * Math.cos(4 * t) + 25
 );
 }
 // creating the particle image using a dummy canvas
